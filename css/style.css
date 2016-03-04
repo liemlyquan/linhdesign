@@ -1,0 +1,248 @@
+@import url("../fonts/GillSansMTPro-Light.otf");
+@import url("../fonts/GillSansMTPro-Medium.otf");
+html {
+  width: 100%;
+  height: 100%;
+}
+
+html body {
+  width: 100%;
+  height: 100%;
+  font-family: "Gill Sans", sans-serif;
+}
+
+html body nav.navbar {
+  background-color: #fff;
+  height: 65px;
+  font-size: 15px;
+}
+
+html body nav.navbar div.container ul.nav li.active a.page-scroll {
+  border-bottom: thin solid;
+  border-color: #0e2648;
+  padding: 0px 5px 5px 5px;
+}
+
+html body nav.navbar div.container ul.nav li:hover a.page-scroll {
+  background-color: transparent;
+  border-bottom: thin solid;
+  border-color: #0f3253;
+  color: #0f3253;
+}
+
+html body nav.navbar div.container ul.nav li.active a.page-scroll:focus {
+  background-color: transparent;
+}
+
+html body nav.navbar div.container ul.nav li {
+  padding: 10px 15px 10px 20px;
+}
+
+html body nav.navbar div.container ul.nav li a.page-scroll {
+  color: #0e2648;
+  padding: 0px 5px 5px 5px;
+}
+
+html body nav.navbar div.container div.navbar-header.page-scroll a.page-scroll.navbar-brand {
+  padding: 0;
+}
+
+html body .block {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #fff;
+}
+
+html body .block .line {
+  margin: 0 auto;
+  width: 75px;
+  border-bottom: solid thin;
+}
+
+html body .block#home {
+  font-weight: lighter;
+  font-size: 14.5px;
+}
+
+html body .block#home .container {
+  position: absolute;
+  display: inline-block;
+  top: 30%;
+  left: 0;
+  right: 0;
+}
+
+html body .block#home .container .home-img {
+  width: 900px;
+  display: inline-block;
+}
+
+html body .block#about {
+  background: url("../images/about.png") 210px 220px no-repeat;
+  background-size: 495px 297px;
+  background-color: #000000;
+  color: #fff;
+}
+
+html body .block#about .row.about-title {
+  margin-top: -50px;
+}
+
+html body .block#about .row.about-title h1.title {
+  font-size: 42px;
+}
+
+html body .block#about .row.about-title .line {
+  margin-bottom: 75px;
+}
+
+html body .block#about .row.about-intro {
+  margin-top: 55px;
+  margin-left: 550px;
+  width: 40%;
+}
+
+html body .block#about .row.about-intro p {
+  font-size: 13px;
+  font-weight: lighter;
+  text-align: justify;
+  letter-spacing: 0.5px;
+}
+
+html body .block#works h1.title {
+  font-size: 41px;
+  margin-top: -50px;
+}
+
+html body .block#works .line {
+  margin-bottom: 50px;
+}
+
+html body .block#works .works-buttons {
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+
+html body .block#works .works-buttons .filter {
+  margin-right: 30px;
+  text-transform: uppercase;
+}
+
+html body .block#works .works-image-wrap {
+  margin-bottom: 40px;
+}
+
+html body .block#contact input, html body .block#contact textarea {
+  outline: none;
+  -webkit-appearance: none;
+  border: none;
+  background-color: transparent;
+  width: 60%;
+  margin: 0 auto;
+  box-shadow: none;
+  border-bottom: solid thin;
+}
+
+html body .block#contact ::-webkit-input-placeholder {
+  color: #000;
+  opacity: 1;
+}
+
+html body .block#contact button.btn {
+  border: none;
+  font-size: 120%;
+}
+
+html body .block#contact .line {
+  margin-bottom: 80px;
+}
+
+html body .block#contact .info {
+  color: #fff;
+  background-color: #000;
+  padding-top: 5px;
+  font-weight: lighter;
+  padding-bottom: 5px;
+}
+
+html body .block#contact .info a {
+  color: #fff;
+}
+
+html body .block#work .row.work-title {
+  margin-top: -50px;
+}
+
+html body .block#work .row.work-title h1.title {
+  font-size: 42px;
+}
+
+html body .block#work .row.work-title .line {
+  margin-bottom: 55px;
+}
+
+html body .block#work .row.work-description {
+  margin-bottom: 20px;
+  font-weight: lighter;
+  letter-spacing: 0.5;
+}
+
+html body .block#work .work-slideshow .indicator-wrapper {
+  font-weight: normal;
+  margin-top: 344px;
+}
+
+@media (max-width: 978px) {
+  html body .block#work .work-slideshow .indicator-wrapper {
+    margin-top: 0px;
+  }
+}
+
+html body .block#work .work-slideshow #image-holder {
+  margin-bottom: 20px;
+}
+
+html body .block#work .work-slideshow .prev-next {
+  margin-top: 336px;
+  border: none;
+  background: none;
+  padding: 0;
+  outline: none;
+  outline-offset: 0;
+  font-weight: lighter;
+}
+
+@media (max-width: 978px) {
+  html body .block#work .work-slideshow .prev-next {
+    margin-top: 0px;
+  }
+}
+
+html body .block#work .work-slideshow .prev-next #prev, html body .block#work .work-slideshow .prev-next #next {
+  font-weight: lighter;
+  color: #000;
+}
+
+html body .block#work .work-slideshow .prev-next #prev:focus, html body .block#work .work-slideshow .prev-next #next:focus {
+  background: none;
+  outline: none;
+  outline-offset: 0;
+  text-decoration: none;
+}
+
+html body .block#work .work-slideshow .prev-next #prev:hover, html body .block#work .work-slideshow .prev-next #next:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
